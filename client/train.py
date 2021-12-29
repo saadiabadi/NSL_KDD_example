@@ -38,7 +38,7 @@ if __name__ == '__main__':
             settings = dict(yaml.safe_load(fh))
         except yaml.YAMLError as e:
             raise (e)
-
+    print("SADI ------------------------ MAIN --------------- SADI")
     helper = KerasHelper()
     weights = helper.load_model(sys.argv[1])
     model = create_seed_model()

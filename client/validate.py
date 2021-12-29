@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 
 
-def validate(model,data):
+def validate(model):
     print("-- RUNNING VALIDATION --", flush=True)
 
     try:
