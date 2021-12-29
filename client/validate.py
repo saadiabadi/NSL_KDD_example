@@ -14,11 +14,11 @@ def validate(model):
     print("-- RUNNING VALIDATION --", flush=True)
 
     try:
-        xtest = np.array(pd.read_csv('../data/xtest.csv', header=None))
+        xtest = np.array(pd.read_csv('../data/inputData.csv', header=None))
         xtest = xtest.reshape(xtest.shape[0], 1, xtest.shape[1])
-        ytest = np.array(pd.read_csv('../data/ytest.csv', header=None))
+        ytest = np.array(pd.read_csv('../data/outputData.csv', header=None))
 
-        _, X, _, y = train_test_split(xtest, ytest, test_size=0.25)
+        _, X, _, y = train_test_split(xtest, ytest, test_size=0.15)
 
         model_score = model.evaluate(X, y, verbose=0)
         print('Testing loss:', model_score[0])

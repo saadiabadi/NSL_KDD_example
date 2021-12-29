@@ -21,9 +21,9 @@ def train(model, settings):
     :return: model
     """
     print("-- RUNNING TRAINING --", flush=True)
-    xtrain = np.array(pd.read_csv('../data/xtrain.csv',  header=None))
+    xtrain = np.array(pd.read_csv('../data/inputData.csv',  header=None))
     xtrain = xtrain.reshape(xtrain.shape[0], 1, xtrain.shape[1])
-    ytrain = np.array(pd.read_csv('../data/ytrain.csv',  header=None))
+    ytrain = np.array(pd.read_csv('../data/outputData.csv',  header=None))
     _, X, _, y = train_test_split(xtrain, ytrain, test_size=settings['test_size'])
 
     model.fit(X, y, epochs=settings['epochs'], batch_size=settings['batch_size'], verbose=True)

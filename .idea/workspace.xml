@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="47f5995c-5726-428f-93da-b86be73f0be8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/client.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/settings.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/client/settings.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/validate.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/validate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package/package.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +38,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640781349375</updated>
-      <workItem from="1640781351143" duration="908000" />
+      <workItem from="1640781351143" duration="1948000" />
     </task>
     <servers />
   </component>
